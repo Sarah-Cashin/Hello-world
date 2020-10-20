@@ -1,8 +1,8 @@
 const myPromise = new Promise((resolve, reject) => {
-    let connection = true;
+    let hello = true;
 
-    if (connection) {
-        resolve('Connection established');
+    if (hello) {
+        resolve('Hello World!');
     } else {
         reject('Connection refused');
     }
@@ -13,3 +13,16 @@ myPromise.then((message) => {
 }).catch((message) => {
     console.log(message);
 })
+
+
+const news = new Promise((resolve, reject) => {
+    fetch("https://content.guardianapis.com/search?api-key=930de680-1e77-42b1-90eb-1077cac50341", {
+
+        })
+        .then(response => {
+            console.log(response);
+        })
+        .catch(err => {
+            console.error(err);
+        });
+});
