@@ -9,4 +9,4 @@ Found instructions how to create a moving earth here https://www.youtube.com/wat
 
 <h2>JSON</h2>
   
-Following instructions from here https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON to try and list webtitle, section name and publication date onto the HTML page from fetch - <strong>UNSUCESSFULL</strong>.
+Following instructions from here https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON to try and list webtitle, section name and publication date onto the HTML page from fetch
